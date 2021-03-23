@@ -56,14 +56,14 @@ const Formulario = () => {
                             value={categoria.strCategory}
                         >{categoria.strCategory}</option>
                     ))}
-
                 </select>
             </div>
+
             <div className="col-md-4">
                 <input
                     type="submit"
                     className="btn btn-block btn-primary"
-                    value="Buscar Bebidas "
+                    value="Buscar Bebidas"
                 />
             </div>
 
